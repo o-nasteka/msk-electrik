@@ -1,0 +1,62 @@
+@media screen and (max-width: 650px) {
+  .vr .hide650 {
+    display: none !important; }
+  .vr ul.show650,
+  .vr div.show650,
+  .vr img.show650 {
+    display: block; }
+  .vr .row-2 .col-1,
+  .vr .row-3 .col-1,
+  .vr .row-3 .col-2,
+  .vr .row-4 .col-1,
+  .vr .row-4 .col-2,
+  .vr .row-4 .col-3 {
+    width: 100%;
+    margin-left: 0; }
+  .vr .phone-block .phone1 {
+    font-size: 18px; }
+  .vr .header-section h1 {
+    font-size: 25px;
+    padding: 4px 0;
+    text-align: center;
+    width: 100%; }
+  .vr .header-section h2 {
+    font-size: 25px;
+    padding: 4px 0;
+    text-align: center;
+    width: 100%; }
+  .vr .section-title h3 {
+    font-size: 28px; }
+  .vr .section-description {
+    color: #584D4D;
+    font-size: 16px; }
+  .vr .header-section .raschet-stoimosti {
+    font-size: 16px;
+    padding: 12px 0;
+    text-align: center;
+    margin-top: 20px;
+    width: 100%; }
+  .vr .header-section .raschet-stoimosti .highlight {
+    clear: both;
+    display: inline-block;
+    width: 100%; }
+  .vr .header-section .raschet-stoimosti .delimeter {
+    display: none; }
+  .vr .header-section .raschet-stoimosti .button {
+    margin: 8px 0 5px 0; }
+  .vr .advantage-row img {
+    float: left;
+    margin: 0 20px 30px 0; }
+  .vr .advantage-row h4 {
+    text-align: left;
+    margin-top: 0; }
+  .vr .advantage-row p {
+    text-align: left; }
+  .vr .services .first h4 {
+    margin-top: 0; }
+  .vr .services .grid-unit {
+    padding-bottom: 20px; }
+  .vr .slidewrap {
+    width: 100%; } }
+
+/*# sourceMappingURL=responsive650.css.map */

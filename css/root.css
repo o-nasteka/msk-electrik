@@ -1,0 +1,80 @@
+@font-face {
+  font-family: sansation;
+  src: url("../fonts/sansation.ttf"); }
+@font-face {
+  font-family: sansation-bold;
+  src: url("../fonts/sansation-bold.ttf"); }
+@font-face {
+  font-family: sansation-bold-italic;
+  src: url("../fonts/sansation-bold-italic.ttf"); }
+@font-face {
+  font-family: sansation-light-italic;
+  src: url("../fonts/sansation-light-italic.ttf"); }
+@font-face {
+  font-family: opensans;
+  src: url("../fonts/opensans.ttf"); }
+@font-face {
+  font-family: opensans-bold;
+  src: url("../fonts/opensans-bold.ttf"); }
+@font-face {
+  font-family: opensans-italic;
+  src: url("../fonts/opensans-italic.ttf"); }
+@font-face {
+  font-family: opensans-light;
+  src: url("../fonts/opensans-light.ttf"); }
+@font-face {
+  font-family: opensans-bold-italic;
+  src: url("../fonts/opensans-bold-italic.ttf"); }
+@font-face {
+  font-family: opensans-light-italic;
+  src: url("../fonts/opensans-light-italic.ttf"); }
+@font-face {
+  font-family: pfbsp;
+  src: url("../fonts/pfbsp.otf"); }
+@font-face {
+  font-family: pfbsp-bold;
+  src: url("../fonts/pfbsp-bold.otf"); }
+@font-face {
+  font-family: pfbsp-italic;
+  src: url("../fonts/pfbsp-italic.otf"); }
+@font-face {
+  font-family: pfbsp-light;
+  src: url("../fonts/pfbsp-light.otf"); }
+@font-face {
+  font-family: pfbsp-bold-italic;
+  src: url("../fonts/pfbsp-bold-italic.otf"); }
+@font-face {
+  font-family: pfbsp-light-italic;
+  src: url("../fonts/pfbsp-light-italic.otf"); }
+
+
+@font-face {
+  font-family: PT-Sans-Regular;
+  src: url("../fonts/PT-Sans/PTC55F.ttf"); }
+
+html {
+  font-family: opensans,sans-serif; }
+
+.vr {
+  background: white; }
+  .vr header {
+    width: 100%; }
+  .vr aside {
+    float: left; }
+  .vr article p, .vr article section, .vr article li {
+    line-height: 1.5; }
+  .vr footer {
+    clear: both;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 10px; }
+  .vr nav {
+    margin: 0 auto;
+    display: block;
+    max-width: 960px; }
+  .vr h1, .vr h2, .vr h3, .vr h4, .vr h5, .vr h6 {
+    font-weight: normal; }
+  .vr p {
+    font-size: 14px; }
+
+/*# sourceMappingURL=root.css.map */

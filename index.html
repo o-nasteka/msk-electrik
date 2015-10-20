@@ -1,0 +1,556 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="robots" content="index, follow" />
+<meta name="keywords" content="электромонтаж" />
+<meta name="description" content="Электромонтажные работы в Москве и Московской области" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Электромонтажные работы в Москве и Московской области</title>
+
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+	<!-- Add the new slick-theme.css if you want the default styling-->
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
+<!-- Collection CSS-->
+<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+<link rel="stylesheet" type="text/css" href="css/root.css" />
+<link rel="stylesheet" type="text/css" href="css/common.css" />
+<link rel="stylesheet" type="text/css" href="css/colors.css" />
+<link rel="stylesheet" type="text/css" href="css/responsive.css" />
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="css/template_styles.css" />
+<link rel="stylesheet" type="text/css" href="css/responsive960.css" />
+<link rel="stylesheet" type="text/css" href="css/responsive650.css" />
+<link rel="stylesheet" type="text/css" href="css/responsive480.css" />
+<link rel="stylesheet" type="text/css" href="css/params.css" />
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+
+<link href="css/page.css" type="text/css"  rel="stylesheet" />
+<link href="css/template.css" type="text/css"  data-template-style="true"  rel="stylesheet" />
+
+<link rel="stylesheet" href="css/jquery.jgrowl.min.css" media="all"/>
+
+
+</head>
+
+
+
+<body class="vr">
+
+<header>
+<div class="grid">
+	<div class="row row-3 main-row">
+		<div class="unit col-1 logo-cell">
+			<img src="img/logo.png" alt="Электрика в доме быстро и надежно" />		</div>
+		<div class="unit col-1 menu-cell">
+			<div class="page-menu">
+				<nav>
+					<img src="img/menu.png" class="mobile-menu hidden-lg hidden-md hidden-sm visible-xs-* " alt="Раскрыть меню" title="Раскрыть меню" onclick="OpenMobileMenu();" />
+					<span class="mobile-menu-link hidden-lg hidden-md hidden-sm visible-xs-*" onclick="OpenMobileMenu();">Меню</span>
+						<ul class="vr-page-menu">
+							<li class="main active item"><a href="index.html#main">главная</a></li>
+							<li class="item"><a href="#nashi-preimuschestva">Преимущества</a></li>
+							<li class="item"><a href="#all-incl-bl">Услуги</a></li>
+							<li class="item break"><a href="#our-work">Проекты</a></li>
+							<li class="item last"><a href="#kontakty">Контакты</a></li>
+						</ul>
+				</nav>
+			</div>
+			<a href="#index.html" class="scroll-top round5-top" title="наверх" ></a></div>
+
+			<div class="unit col-1 phone-cell">
+				<div class="phone-block">
+					<div class="phone1">+7 (926) 419-49-00</div>
+				</div>
+				<div class="callback-block">
+					<a onclick="SwitchCallbackForm(this);" class="vr-callback-button submit">
+						Заказать <b>обратный</b> звонок
+					</a>
+
+					<div class="window-container vr-callback-window" id="response-block">
+						<div class="background" onclick="CloseCallbackForm(this);"></div>
+
+						<div class="window">
+							<span class="close" onclick="CloseSuccessForm(this);">x</span>
+							<h2 class="title">Вы восхитительны!</h2>
+							<div class="callback-text text">Ваша заявка отправлена.
+								В ближайшее время с вами свяжется менеджер для уточнения деталей.
+							</div>
+						</div>
+					</div>
+					<div class="window-container vr-callback-window" id="request-block">
+						<div class="background" onclick="CloseCallbackForm(this);"></div>
+						<div class="window">
+							<span class="close" onclick="CloseCallbackForm(this);">x</span>
+							<h2 class="title">Заполните форму и мы вам обязательно перезвоним</h2>
+							<div class="window-inner">
+								<form id="topCallBackForm" action=""  onsubmit="call2(); return false" method="post" name="callbackForm" class="callback-form">
+									<div class="insert-dinamyc-inputs-container"></div>
+										<input type="text" class="input-text" name="name" placeholder="Введите имя" required=""/>
+										<input type="text" class="input-text required" name="phone" placeholder="Введите контактный телефон *" required=""/><br/>
+										<input class="submit" type="submit"  name="submit" value="Заказать звонок" onclick="" />
+								</form>
+
+								<br/>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+	</div>
+</div>
+</header>
+
+<article>
+<section id="main" class="header-section">
+<div class="grid">
+	<div class="row">
+		<div class="col-md-7">
+
+			<h1>Электромонтажные работы</h1>
+			<h2>в Москве и Московской области</h2>
+
+			<div class="disc-ban hidden-xs">
+				<p>
+					Скидка 10% на услуги  и сервис: <br>
+					<a href="#all-incl-bl">*Все включено-бесплатно</a>
+				</p>
+				<p class="arr-bl img-responsive">
+					Успейте заказать сейчас
+				</p>
+			</div>
+
+		</div>
+		<div class="col-md-5">
+			<form id="header-form" method="POST" action="" onsubmit="call3(); return false">
+				<div class="lead-form">
+					<p>
+						Закажите бесплатную <br>
+						консультацию, и получите <br>
+						<span class="yellow">10% скидку!</span>
+					</p>
+					<div class="form-group">
+						<input type="text" class="form-control" id="name" name="name" placeholder="Введите имя" required="" />
+					</div>
+					<div class="form-group">
+						<input type="text" class="form-control" id="phone" name="phone" placeholder="Введите номер телефон" required="" />
+					</div>
+					<div class="form-group">
+						<input type="email" class="form-control" id="email" name="email" placeholder="Введте адрес электронной почты" required="" />
+					</div>
+					<button type="submit" class="btn btn-default">Заказать консультацию!</button>
+				</div>
+			</form>
+
+		</div>
+	</div>
+
+</div>
+</section>
+
+	<section id="egg-bl">
+		<div class="grid">
+			<div class="row row-3 eggs">
+				<div class="unit col-1 first col-sd-12 col-md-4 col-xs-12">
+					<div class="mark-block" style="background: url(img/v-item1.png) bottom right no-repeat;">
+						<span class="mark">123</span><br />
+						<span class="mark-desc">люстры<br /> повешено</span>
+					</div>
+				</div>
+				<div class="unit col-1 second col-sd-12 col-md-4 col-xs-12">
+					<div class="mark-block" style="background: url(img/v-item2.png) bottom right no-repeat;">
+						<span class="mark">21'116 м</span><br />
+						<span class="mark-desc">кабеля<br /> проложено</span>
+					</div>
+				</div>
+				<div class="unit col-1 last col-sd-12 col-md-4 col-xs-12">
+					<div class="mark-block" style="background: url(img/v-client.png) bottom right no-repeat;">
+						<span class="mark">297</span><br />
+						<span class="mark-desc">довольных<br /> клиентов</span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</section>
+
+	<section id="nashi-preimuschestva" class=" first " >
+        <div class="grid">
+			                        <div class="section-title">
+				<div class="line"></div>
+                <h3><span>Наши преимущества</span></h3>
+            </div>
+
+			<div class="section-content">
+				<div class="row">
+
+  					<div class="col-md-4 first text-center">
+						<img src="img/item1.png" alt="Точно в срок"  />
+    					<h4>Точно в срок</h4>
+    					<p>
+							Мы строго придерживаемся
+							установленных планов и
+							сроков исполнения.
+						</p>
+   					</div>
+ 	 
+  					<div class="col-md-4 text-center">
+						<img src="img/item2.png" alt="Качественно"  />
+    					<h4>Качественно</h4>
+    					<p>
+							Мы гарантируем качество
+							выполненной работы
+							и материалов.
+						</p>
+   					</div>
+ 	 
+  					<div class="col-md-4 text-center break">
+						<img src="img/item3.png" alt="Профессионально"  />
+    					<h4>Профессионально</h4>
+    					<p>К работе допускаются только сотрудники, имеющие соответствующую подготовку.</p>
+   					</div>
+ 				</div>
+				<div class="row">
+					<div class="col-md-2"></div>
+					<div class="col-md-4 text-center">
+						<img src="img/item4.png" alt="Надежно"  />
+						<h4>Надежно</h4>
+						<p>
+							Мы используем проверенные
+							инструменты и сотрудничаем
+							с надежными поставщиками.
+						</p>
+					</div>
+					<div class="col-md-4 text-center">
+						<img src="img/item5.png" alt="Cервис"  />
+						<h4>Cервис</h4>
+						<p>
+							Уникальный сервис!
+							Все включено -
+							абсолютно бесплатно.
+						</p>
+					</div>
+					<div class="col-md-2"></div>
+				</div>
+ 			</div>
+        </div>
+	</section>
+<br><hr>
+	<!-- -->
+	<section id="all-incl-bl">
+		<div class="grid">
+			<div class="section-title">
+				<h3><span>Уникальный сервис</span></h3>
+
+				<h4 class="text-center">все включено - бесплатно, всем клиентам</h4>
+			</div>
+
+			<div class="all-in">
+				<div class="grid center-block">
+					<div class="row">
+						<div class="col-md-3 col-sm-3 col-xs-12 center-block"><p class="text-center"><i class="fa fa-truck fa-3x "></i></p></div>
+						<div class="col-md-3 col-sm-3 col-xs-12 txt txt1 ">Выезд специалиста на объект</div>
+						<div class="col-md-3 col-sm-3 col-xs-12"><p class="text-center"><i class="fa fa-align-center fa-file-text fa-3x"></i></p></div>
+						<div class="col-md-3 col-sm-3 col-xs-12 txt txt2 ">Составление сметы</div>
+					</div>
+
+					<br><br>
+					<div class="row">
+						<div class="col-md-3 col-sm-3 col-xs-12"><p class="text-center"><i class="fa fa-comments fa-3x "></i></p></div>
+						<div class="col-md-3 col-sm-3 col-xs-12 txt txt3 ">Консультации</div>
+						<div class="col-md-3 col-sm-3 col-xs-12"><p class="text-center"><i class="fa fa-dropbox fa-3x"></i></p></div>
+						<div class="col-md-3 col-sm-3 col-xs-12 txt txt4 ">Закупка и доставка материала на объект</div>
+					</div>
+					<br><br>
+					<div class="row">
+						<div class="col-md-3 col-sm-3 col-xs-12"><p class="text-center"><i class="fa fa-clipboard fa-3x "></i></p></div>
+						<div class="col-md-3 col-sm-3 col-xs-12 txt txt5 ">Составление монтажного плана</div>
+						<div class="col-md-3 col-sm-3 col-xs-12"><p class="text-center"><i class="fa fa-sitemap fa-3x"></i></p></div>
+						<div class="col-md-3 col-sm-3 col-xs-12 txt txt6">
+							Разводка временного
+							освещения и электропитания объекта
+						</div>
+					</div>
+					<br><br>
+					<div class="row">
+						<div class="col-md-3 col-sm-3 col-xs-12"><p class="text-center"><i class="fa fa-pencil-square fa-3x "></i></p></div>
+						<div class="col-md-3 col-sm-3 col-xs-12 txt txt7 ">Составление проекта</div>
+						<div class="col-md-3 col-sm-3 col-xs-12"><p class="text-center"><i class="fa fa-check fa-3x"></i></p></div>
+						<div class="col-md-3 col-sm-3 col-xs-12 txt txt8 ">Уборка и вынос мусора</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+	<!-- -->
+
+	<!-- Calc bl -->
+<section id="calc">
+	<div class="grid">
+		<div class="section-title">
+			<div class="line"></div>
+			<h3><span>Калькулятор стоимости</span></h3>
+		</div>
+		<form id="calc-form" onInput="StatusSelect(this)" >
+			<div class="row">
+				<div class="col-md-4 col-xs-12">
+					<select id='WorkType' name="work_type" onChange='' class="form-control" required="">
+						<option value="1">Тип работ:</option>
+						<option value="easy">-Мелкий ремонт</option>
+						<option value="black">-Черновой электромонтаж</option>
+						<option value="clean">-Чистовой электромонтаж</option>
+						<option value="other">-Другое</option>
+					</select>
+				</div>
+				<div class="col-md-4 col-xs-12">
+					<select id="TypeBuilding" class="form-control" required="" >
+						<option value="1">Выберите тип помещения:</option>
+						<option value="app">-Квартира</option>
+						<option value="office">-Офис</option>
+						<option value="house">-Загородный дом</option>
+					</select>
+				</div>
+				<div class="col-md-4 col-xs-12">
+					<div id="SquareDiv" class="input-group">
+						<input id="Square" oninput="" type="text" class="form-control" name="square" placeholder="Укажите площадь ">
+						<div class="input-group-addon">м2</div>
+					</div>
+				</div>
+			</div>
+			<br>
+			<h4 class="text-center">стоимость работы:  &nbsp;<span id="price" class="price">0 &#8399;</span></h4>
+			<h5 id="order-text" class="text-center hidden">Оставьте заявку для уточнения</h5>
+		</form>
+		<p class="text-center">
+			<button onclick="SwitchCallbackForm(this);"  class="btn btn-default text-center">Оставить заявку!</button>
+		</p>
+
+	</div>
+</section>
+	<!-- Calc bl end -->
+
+<section id="our-work">
+	<div class="grid">
+		<div class="section-title">
+			<div class="line"></div>
+			<h3><span>Наши работы</span></h3>
+		</div>
+		<!--
+		<div class="bf">До</div>
+		<div class="aft">После</div>
+		-->
+		<div class="carousel">
+			<div class="bf"><img src="img/01-1.jpg"></div>
+			<div class="aft"><img src="img/01-2.jpg"></div>
+			<div class="bf"><img src="img/02-1.jpg"></div>
+			<div class="aft"><img src="img/02-2.jpg"></div>
+			<div class="bf"><img src="img/03-1.png"></div>
+			<div class="aft"><img src="img/03-2.png"></div>
+		</div>
+
+	</div>
+</section>
+
+
+<section id="vyzov-mastera-besplatno" class="" >
+	<div class="grid">
+		<div class="section-title">
+			<div class="line"></div>
+			<h3><span>Вызов Мастера БЕСПЛАТНО</span></h3>
+		</div>
+		<div class="section-content">
+			<div class="feedback feedback-repair-default">
+				<form id="feedback-form-master" method="post" action="mail.php">
+					<div class="row row-3">
+						<div class="unit col-1">
+							<input type="name" class="input-text required" name="name" placeholder="Введите имя"/>
+						</div>
+						<div class="unit col-1">
+							<input type="phone" class="input-text required" name="phone" placeholder="Введите контактный телефон *" />
+						</div>
+						<div class="unit col-1">
+							<input class="submit" type="submit" name="submit" value="Заказать" onsubmit="" />
+						</div>
+					</div>
+					<br />
+				</form>
+			</div>
+		</div>
+    </div>
+</section>
+
+<!-- kak-my-rabotaem -->
+<section id="kak-my-rabotaem" class="" >
+	<div class="grid">
+		<div class="section-title">
+			<div class="line"></div>
+			<h3><span>Как мы работаем</span></h3>
+		</div>
+		<div class="section-content">
+			<img src="img/how-we-work.png" style="width:97.5%;" class="img-responsive" alt="Схема работы"  />
+			<ul class="how-we-work hide show650">
+  				<li>Вызов специалиста</li>
+  				<li>Расчет стоимости</li>
+  				<li>Заключение договора</li>
+  				<li>Работа</li>
+  				<li>Результат</li>
+ 			</ul>
+ 		</div>
+	</div>
+</section>
+<!-- kak-my-rabotaem end-->
+
+<section id="kontakty" class="" >
+	<div class="grid">
+		<div class="section-title">
+			<div class="line"></div>
+                <h3><span>Контакты</span></h3>
+            </div>
+		<div class="section-content">
+			<div class="contacts contacts-repair-default">
+				<div class="row row-4">
+					<div class="unit col-2">
+						<div class="feedback feedback-repair-contacts">
+							<h4 class="title">
+								Есть вопросы?<span> задайте их нам</span>
+							</h4>
+							<form id="bottomFeedback" method="post" action="javascript:void(null);" onsubmit="call(); return false">
+								<input type="text" class="input-text required" name="name" placeholder="Ваше имя" required=""/>
+								<input type="text" class="input-text required" name="phone" placeholder="Ваш телефон" required=""/>
+								<input type="text" class="input-text required" name="email" placeholder="mail@elektrik.ru" required=""/>
+								<textarea name="inputQuestion" class="input-text" placeholder="Ваш вопрос"></textarea>
+								<div style="width: 100%;">
+									<input class="submit" type="submit" name="submit" onclick="" value="Отправить" />
+									<br />
+								</div>
+							</form>
+						</div>
+					</div>
+					<div class="unit col-2">
+						<div class="contacts-block" style="margin-left: 30px;">
+							<h4 class="title">Контакты</h4>
+							<div class="contacts-inner-block">
+								<div class="phones">
+									<div class="phone1"><span>тел.: </span>+8 (926) 419-49-00	</div>
+								</div>
+								<div class="email">
+									<span>E-mail: </span><a href="mailto:dr.silent@mail.ru">dr.silent@mail.ru</a>
+								</div>
+								<div class="address"></div>
+								<div class="operation-time">
+								<span>Время работы: </span><br />
+								Ежедневно: 9:00-21:00				</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+</article>
+
+<footer>
+<div class="grid">
+	<div class="row row-1">
+		<div class="unit col-1 transparent"><a href="http://msk-electrik.ru" target="_blank">msk-electrik.ru</a> &copy;&nbsp;2015&nbsp;&nbsp;
+		</div>
+	</div>
+</div>
+
+</footer>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+	(function (d, w, c) {
+		(w[c] = w[c] || []).push(function() {
+			try {
+				w.yaCounter33041514 = new Ya.Metrika({
+					id:33041514,
+					clickmap:true,
+					trackLinks:true,
+					accurateTrackBounce:true,
+					webvisor:true,
+					trackHash:true
+				});
+			} catch(e) { }
+		});
+
+		var n = d.getElementsByTagName("script")[0],
+				s = d.createElement("script"),
+				f = function () { n.parentNode.insertBefore(s, n); };
+		s.type = "text/javascript";
+		s.async = true;
+		s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+		if (w.opera == "[object Opera]") {
+			d.addEventListener("DOMContentLoaded", f, false);
+		} else { f(); }
+	})(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/33041514" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+<!-- Google analytics -->
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-68890934-1', 'auto');
+	ga('send', 'pageview');
+
+</script>
+<!-- Google analytics end-->
+
+<script type="text/javascript">
+	// default settings
+	$.jGrowl.defaults.closer = false;
+
+	// interval for checking the status popup
+	$.jGrowl.defaults.check = 500;
+
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<!-- <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
+<script src="js/jquery.mask.js"></script>
+
+<script src="js/jquery.jgrowl.min.js" type="text/javascript" ></script>
+
+
+<!-- Collection JS-->
+<script type="text/javascript" src="js/calc.js"></script>
+<script type="text/javascript" src="js/send_form.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script type="text/javascript" src="js/carousel.js"></script>
+<script type="text/javascript" src="js/utils.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/placeholder.min.js"></script>
+<script type="text/javascript" src="js/core_db.js"></script>
+<script type="text/javascript" src="js/core_frame_cache.js"></script>
+<script type="text/javascript" src="js/carousel.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/template.js"></script>
+<script type="text/javascript" src="js/page.js"></script>
+<script type="text/javascript" src="js/menu.js"></script>
+<script type="text/javascript" src="js/forms.js"></script>
+
+<div class="visible-lg hidden-md hidden-md hidden-xs">
+	<!-- pozvonim.com -->
+<script async type="text/javascript" src="//api.pozvonim.com/widget/callback/v3/ad69b273da7fcd2d53065b1a92caee0f/connect" id="check-code-pozvonim" charset="UTF-8"></script>
+
+</div>
+
+</body>
+</html>

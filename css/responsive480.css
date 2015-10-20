@@ -1,0 +1,50 @@
+@media screen and (max-width: 480px) {
+  .vr .row .unit.logo-cell {
+    width: 100%;
+    text-align: center;
+    clear: both; }
+  .vr .row .unit.phone-cell {
+    width: 100%;
+    clear: both; }
+  .vr .phone-block {
+    float: none;
+    width: 100%;
+    clear: both;
+    text-align: center;
+    margin: 10px 0 10px 0; }
+  .vr .phone-block .phone1, .vr .phone-block .phone2 {
+    font-size: 25px; }
+  .vr .header-section h1 {
+    font-size: 22px; }
+  .vr .header-section h2 {
+    font-size: 22px; }
+  .vr .advantage-row img {
+    float: none;
+    margin: 0; }
+  .vr .advantage-row h4 {
+    text-align: center;
+    margin-top: 15px; }
+  .vr .advantage-row p {
+    text-align: center; }
+  .vr header {
+    position: relative; }
+  .vr .row-3 .col-1.logo-cell {
+    padding-top: 58px; }
+  .vr .row-3 .col-1.menu-cell {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #888;
+    position: fixed;
+    padding: 0 0 0 3%;
+    z-index: 20; }
+  .vr .row-3 .col-1.phone-cell {
+    position: relative;
+    padding-top: 0;
+    right: 0; }
+  .vr .header-section {
+    margin-top: 0; }
+  .vr section .section-title {
+    padding-top: 30px; } }
+
+/*# sourceMappingURL=responsive480.css.map */

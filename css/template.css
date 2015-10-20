@@ -1,0 +1,160 @@
+
+
+
+/* Start:style.css*/
+.vr nav {
+  padding: 33px 0; }
+  @media screen and (max-width: 960px) {
+    .vr nav {
+      padding: 9px 0; } }
+  @media screen and (max-width: 480px) {
+    .vr nav br {
+      display: none; } }
+.vr .scroll-top {
+  background-color: gray;
+  background-image: url('../img/arrow.png');
+  background-position: 13px 13px;
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 40px;
+  bottom: 10px;
+  right: 2%;
+  display: none;
+  z-index: 9999;
+  position: fixed; }
+  .vr .scroll-top:hover {
+    background-color: lightgray; }
+.vr .page-menu {
+  width: 100%; }
+  @media screen and (max-width: 480px) {
+    .vr .page-menu {
+      text-align: left;
+      z-index: 20; } }
+  .vr .page-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    line-height: 30px; }
+    @media screen and (max-width: 480px) {
+      .vr .page-menu ul {
+        display: none; } }
+    .vr .page-menu ul li {
+      padding-right: 3%;
+      float: none;
+      display: inline;
+      float: left;
+      line-height: 18px; }
+      @media screen and (max-width: 960px) {
+        .vr .page-menu ul li {
+          padding-right: 2.35%; } }
+      @media screen and (max-width: 480px) {
+        .vr .page-menu ul li {
+          float: none;
+          display: list-item;
+          padding-right: 0;
+          line-height: 30px;
+          text-align: left; } }
+      .vr .page-menu ul li.last {
+        padding-right: 0; }
+      .vr .page-menu ul li.active a {
+        border-bottom: 5px solid #111;
+        color: #111; }
+        @media screen and (max-width: 480px) {
+          .vr .page-menu ul li.active a {
+            border-bottom: 0;
+            color: white; } }
+      .vr .page-menu ul li a {
+        color: #000;
+        text-decoration: none;
+        cursor: pointer;
+        font-family: opensans;
+        text-transform: uppercase;
+        font-size: 14px;
+        padding: 28px 0; }
+        @media screen and (max-width: 960px) {
+          .vr .page-menu ul li a {
+            padding: 0; } }
+        @media screen and (max-width: 480px) {
+          .vr .page-menu ul li a {
+            padding: 5px 0; } }
+        .vr .page-menu ul li a:hover {
+          border-bottom: 5px solid #111;
+          color: #111; }
+@media screen and (max-width: 480px) {
+  .vr img.mobile-menu {
+    margin: 0 10px 0 0;
+    cursor: pointer;
+    float: left;
+    display: inline-block; }
+  .vr .mobile-menu-link {
+    color: white;
+    text-decoration: none;
+    text-align: left;
+    display: inline-block;
+    cursor: pointer; } }
+
+/*# sourceMappingURL=style.css.map */
+
+/* End */
+
+
+
+/* style.css*/
+.vr .vr-callback-button {
+  background: url('../img/phone.png') 0 7px no-repeat; }
+  @media screen and (max-width: 960px) {
+    .vr .vr-callback-button {
+      font-size: 16px;
+      padding-left: 35px;
+      padding-top: 4px;
+      clear: both;
+      background-position: 0 5px !important; }
+      .vr .vr-callback-button b {
+        display: none; } }
+  @media screen and (max-width: 650px) {
+    .vr .vr-callback-button {
+      font-size: 14px;
+      padding-left: 37px; } }
+  .vr .vr-callback-button.submit {
+    float: right;
+    padding: 5px 0 5px 35px;
+    font-size: 13px;
+    text-decoration: underline;
+    background-color: transparent; }
+    @media screen and (max-width: 480px) {
+      .vr .vr-callback-button.submit {
+        float: none; } }
+    .vr .vr-callback-button.submit:hover {
+      background-color: transparent; }
+    .vr .vr-callback-button.submit b {
+      font-weight: normal; }
+.vr .vr-callback-window .button, .vr .vr-callback-window .submit {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 17px;
+  margin-top: 5px;
+  font-family: opensans; }
+.vr .vr-callback-window .window {
+  width: 350px;
+  top: 10%;
+  left: 50%;
+  margin-left: -175px; }
+  @media screen and (max-width: 480px) {
+    .vr .vr-callback-window .window {
+      width: 260px;
+      margin-left: -155px; } }
+.vr .callback-form .input-text {
+  margin: 0 0 15px 0; }
+.vr #response-block .title {
+  text-align: left; }
+@media screen and (max-width: 480px) {
+  .vr .callback-block {
+    float: none;
+    width: 100%;
+    clear: both;
+    text-align: center;
+    margin: 0 0 20px 0; } }
+
+/*# sourceMappingURL=style.css.map */
+
+/* End */

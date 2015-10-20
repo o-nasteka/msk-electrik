@@ -1,0 +1,39 @@
+@media screen and (max-width: 960px) {
+  .vr ul.show960 {
+    display: block; }
+  .vr .row-3 .col-1.logo-cell {
+    width: 50%;
+    padding-top: 9px; }
+  .vr .row-3 .col-1.menu-cell {
+    width: 100%;
+    clear: both; }
+  .vr .row-3 .col-1.phone-cell {
+    width: 50%;
+    position: absolute;
+    top: 0px;
+    right: 2.5%;
+    padding-top: 9px; }
+  .vr .header-section h1 {
+    font-size: 30px; }
+  .vr .header-section h2 {
+    font-size: 30px; }
+  .vr .header-section .eggs {
+    display: none; }
+  .vr .phone-block {
+    margin-top: 0; }
+  .vr .phone-block .phone1 {
+    font-size: 20px;
+    margin-bottom: 0; }
+  .vr .row-4 .col-1 {
+    width: 49%; }
+  .vr .row-4 .col-1.break {
+    margin-left: 0; }
+  .vr .row .unit.break {
+    clear: both; }
+  .vr .services-unit {
+    width: 100%;
+    margin-top: 30px; }
+  .vr section .section-title {
+    padding-top: 50px; } }
+
+/*# sourceMappingURL=responsive960.css.map */

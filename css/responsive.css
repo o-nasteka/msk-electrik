@@ -1,0 +1,100 @@
+.vr img {
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+  /* ie8 */ }
+.vr .video embed, .vr .video object, .vr .video iframe {
+  width: 100%;
+  height: auto; }
+.vr section {
+  clear: both; }
+.vr br {
+  clear: both; }
+.vr .grid {
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  max-width: 960px;
+  /*width: 960px;*/ }
+.vr .grid-100 {
+  width: 100%; }
+.vr .row {
+  clear: both;
+  float: left;
+  width: 100%; }
+  .vr .row .unit {
+    position: relative;
+    margin-left: 0;
+    width: 100%;
+    float: left;
+    display: inline; }
+.vr .row-2 .col-1 {
+  width: 49%;
+  margin-left: 2%; }
+  .vr .row-2 .col-1:first-child {
+    margin-left: 0; }
+.vr .row-3.non-space .col-1 {
+  width: 33.3%;
+  margin-left: 0; }
+.vr .row-3.non-space .col-2 {
+  width: 66.5%;
+  margin-left: 0; }
+.vr .row-3 .col-1 {
+  width: 32%;
+  margin-left: 2%; }
+  .vr .row-3 .col-1:first-child {
+    margin-left: 0; }
+.vr .row-3 .col-2 {
+  width: 64%;
+  margin-left: 2%; }
+  .vr .row-3 .col-2:first-child {
+    margin-left: 0; }
+.vr .row-4 .col-1 {
+  width: 23.5%;
+  margin-left: 2%; }
+  .vr .row-4 .col-1:first-child {
+    margin-left: 0; }
+.vr .row-4 .col-2 {
+  width: 49%;
+  margin-left: 2%; }
+  .vr .row-4 .col-2:first-child {
+    margin-left: 0; }
+.vr .row-4 .col-3 {
+  width: 74.5%;
+  margin-left: 2%; }
+  .vr .row-4 .col-3:first-child {
+    margin-left: 0; }
+.vr .row-5 .col-1 {
+  width: 20%;
+  margin-left: 2%; }
+  .vr .row-5 .col-1:first-child {
+    margin-left: 0; }
+.vr .row-5 .col-2 {
+  width: 40%;
+  margin-left: 2%; }
+  .vr .row-5 .col-2:first-child {
+    margin-left: 0; }
+.vr .row-5 .col-3 {
+  width: 60%;
+  margin-left: 2%; }
+  .vr .row-5 .col-3:first-child {
+    margin-left: 0; }
+.vr .grid:after,
+.vr .grid-100:after,
+.vr .section-content:after,
+.vr nav:after {
+  clear: both;
+  color: transparent;
+  display: table;
+  line-height: 0;
+  content: ""; }
+.vr .section-title {
+  width: 100%; }
+.vr .section-title h3 {
+  display: inline-block; }
+.vr .section-subtitle {
+  width: 100%; }
+.vr .section-subtitle h4 {
+  display: inline-block; }
+
+/*# sourceMappingURL=responsive.css.map */
