@@ -307,36 +307,40 @@ and (max-width : 568px) {
 .all-in .fa {
   background-color: #ffe441;
   padding: 10px 40px;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
   font-size: 6em;
   margin: 10px auto 0;
 }
 
 .txt{
+
   text-align: left;
 }
 .txt1{
-  margin-top: 30px;
+  margin-top: 0px;
 }
 .txt2{
-  margin-top: 50px;
+  margin-top: 0px;
 }
 .txt3{
-  margin-top: 50px;
+  margin-top: 0px;
 }
 .txt4{
-  margin-top: 20px;
+  margin-top: 0px;
 }
 .txt5{
-  margin-top: 30px;
+  margin-top: 0px;
 }
 .txt6{
   margin-top: 0px;
 }
-.txt7, .txt8 {
-  margin-top: 40px;
+.txt7{
+  margin-top: 0px;
+}
+.txt8 {
+  margin-top: 0px;
 }
 
 .fa-file-text {
