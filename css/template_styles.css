@@ -411,8 +411,8 @@ and (-webkit-min-device-pixel-ratio: 2) {
 #calc .btn:hover{
   cursor : pointer;
   text-decoration: underline;
-  padding-top: 9px !important;
-  padding-left: 15px !important;
+  /*padding-top: 9px !important;*/
+  /*padding-left: 15px !important;*/
   /*border-bottom: 2px solid #cbaa00;
   border-right: 2px solid #cbaa00;*/
   border-bottom: 1px solid #ccc;
