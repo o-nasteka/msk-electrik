@@ -10,7 +10,7 @@ function call() {
         },
         error:  function(xhr, str){
             // alert('Ошибка отправки: ' + xhr.responseCode);
-            $.jGrowl("Ошибка отправки!", { sticky: false, life:1500 });
+            $.jGrowl("Ошибка отправки!", { sticky: false, life:3000 });
         }
     });
 
@@ -29,7 +29,7 @@ function call2() {
         },
 
         error:  function(xhr, str){
-            $.jGrowl("Ошибка отправки!", { sticky: false, life:1500 });
+            $.jGrowl("Ошибка отправки!", { sticky: false, life:3000 });
         }
     });
 
@@ -47,7 +47,7 @@ function call3() {
             CloseCallbackForm(this);
         },
         error:  function(xhr, str){
-            $.jGrowl("Ошибка отправки!", { sticky: false, life:1500 });
+            $.jGrowl("Ошибка отправки!", { sticky: false, life:3000 });
 
         }
     });
@@ -66,7 +66,7 @@ function call4() {
             CloseCallbackForm(this);
         },
         error:  function(xhr, str){
-            $.jGrowl("Ошибка отправки!", { sticky: false, life:1500 });
+            $.jGrowl("Ошибка отправки!", { sticky: false, life:3000 });
 
         }
     });
