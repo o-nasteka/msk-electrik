@@ -53,3 +53,22 @@ function call3() {
     });
 
 }
+
+function call4() {
+    var msg   = $('#feedback-form-master').serialize();
+    $.ajax({
+        type: 'POST',
+        url: 'mail.php',
+        data: msg,
+        success: function(data) {
+            // $.jGrowl("Заявка отправлена!", { sticky: false, life:1500 });
+            OpenSuccessForm(this);
+            CloseCallbackForm(this);
+        },
+        error:  function(xhr, str){
+            $.jGrowl("Ошибка отправки!", { sticky: false, life:1500 });
+
+        }
+    });
+
+}
